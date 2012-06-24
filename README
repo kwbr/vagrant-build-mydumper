@@ -1,0 +1,11 @@
+Use vagrant + puppet + fpm to build debs for mydumper.
+
+Based on work and idea from
+https://github.com/roidelapluie/vagrant-build-mapnik
+
+You can watch the compilation and build process if you are fast enough with
+
+$ vagrant ssh
+$ sudo screen -r
+
+The final packages will be located in the debs/ folder
